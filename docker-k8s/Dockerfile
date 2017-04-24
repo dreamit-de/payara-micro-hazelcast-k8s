@@ -2,7 +2,6 @@ FROM java:8-jdk
 
 MAINTAINER dreamit
 
-COPY hazelcast-kubernetes-discovery.jar /hazelcast-kubernetes-discovery.jar
 COPY server.jar /server.jar
 
 COPY hazelcast.xml /hazelcast.xml
